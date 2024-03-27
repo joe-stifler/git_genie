@@ -1,0 +1,8 @@
+jupyter
+ipykernel
+pytest===7.4.3
+coverage===7.4.4
+flake8
+black[jupyter]
+GitPython
+pyperclip
