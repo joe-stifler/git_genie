@@ -1,5 +1,6 @@
 import requests
 
+
 class LLMIntegrator:
     """
     A class to interact with an external Large Language Model (LLM) API for text generation tasks.
@@ -56,8 +57,8 @@ class LLMIntegrator:
         'Hello, world! How can I help you today?'
         """
         # Replace the mock call below with actual API interaction
-        payload = {'input': input_text}
-        headers = {'Authorization': 'Bearer YOUR_API_KEY'}
+        payload = {"input": input_text}
+        headers = {"Authorization": "Bearer YOUR_API_KEY"}
 
         # Uncomment and configure the following lines for the actual API call:
         # response = self.session.post(self.api_url, json=payload, headers=headers)
@@ -65,7 +66,8 @@ class LLMIntegrator:
         # return response.json().get('generated_text')
 
         # Mock response for demonstration:
-        return f'Mock response based on input: {input_text}'
+        return f"Mock response based on input: {input_text}"
+
 
 # Example usage (should be outside this file in practice):
 # if __name__ == '__main__':

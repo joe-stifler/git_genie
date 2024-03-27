@@ -7,11 +7,7 @@ setup(
     author_email="joseribeiro1017@gmail.com",
     packages=find_packages(),
     install_requires=[],
-    entry_points={
-        "console_scripts": [
-            "git_genie=git_genie.__init__:main"
-        ]
-    },
+    entry_points={"console_scripts": ["git_genie=git_genie.__init__:main"]},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
