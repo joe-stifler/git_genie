@@ -1,4 +1,4 @@
-from crawler.utils.file_utils import (
+from git_genie.utils.file_utils import (
     generate_filename_from_url,
     save_content_to_single_file,
 )
